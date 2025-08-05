@@ -190,7 +190,7 @@ tree.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 action_frame = tk.Frame(root)
 action_frame.pack(pady=5)
 
-tk.Button(action_frame, text="Mark Done", command=mark_done).grid(row=0, column=0, padx=5)
+
 tk.Button(action_frame, text="Delete", command=delete_habit).grid(row=0, column=1, padx=5)
 tk.Button(action_frame, text="Edit", command=edit_habit).grid(row=0, column=2, padx=5)
 tk.Button(action_frame, text="Stats", command=show_stats).grid(row=0, column=3, padx=5)
